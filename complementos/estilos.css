@@ -1,0 +1,583 @@
+/********************GENERAL********************/
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-image: url("https://raw.githubusercontent.com/Lucasgomez14/arg-prom-4.0-frontend/main/Arg.Prog%204.0/teoria/TrabajoEntrega/imgpngs/pruebaFondo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;    
+}
+
+/********************IDS DE DECORACION********************/
+#tituloCV
+{
+    text-align: center;
+    font-size: 50px;
+}
+#fotoCV
+{
+    margin-top: 50px;
+    margin-left: -40px;
+    border: 1px solid; color: black;
+    border-radius: 10px;
+}
+#lateralesIzquierdos
+{
+    border-right: 1px solid black;
+}
+
+#lateralesDerechos
+{
+    border-left: 1px solid black;
+}
+#lateralCentral
+{
+    border-bottom: 1px solid black;
+}
+
+#titulo
+{
+    text-align: left;
+    font-size: 65px;
+}
+#subtitulo
+{
+    text-align: left;
+    font-size: 55px;
+    color: rgb(65, 77, 30);
+   
+}
+
+.textoParaIconitos
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#iconitos
+{
+    height: 30px;
+    width: 30px;
+}
+
+#margenesh5
+{
+    margin-left: 2px;
+}
+
+#debajoh5
+{
+    margin-left: 2px;
+    opacity: 0.5;
+}
+
+/********************CLASES DE DECORACION********************/
+
+.navegacion
+{
+    font-size: 13px;
+    text-align: left;
+    padding-left: 20px;
+}
+.margen
+{
+    margin-top:15px;
+    margin-bottom:10px;
+}
+
+.margenesTitySub
+{
+    margin: 15px;
+}
+.iconitosPrincipales
+{
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 25px;
+}
+
+.iconitosSubtitulos
+{
+    height: 35px;
+    width: 35px;
+    margin-top: 11px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.iconitosSkills
+{
+    margin-top: 13px;
+    margin-left: 1px;
+}
+
+.subtitulos
+{
+    color: black;
+    display: inline-block;
+    font-size: 40px;
+    vertical-align: top;
+    margin: 2px;
+    
+}
+.subtitulos:hover
+{
+    color: rgb(56, 55, 55);
+    border-bottom: 1px solid black;
+}
+
+
+.textoIconitos{
+    color: black;
+    opacity: 0.50;
+    font-size: 30px;
+    margin: 3px;
+}
+
+.parrafos
+{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.listaspan
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 1px;
+}
+.h5Educacion
+{
+    margin-top: 17px;
+}
+
+/********************BOTONES********************/
+
+.acordeon{
+    color: black;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+  }
+
+.acordeon:hover
+{
+    transform: scale(1.01);
+}
+  .panel {
+    padding: 10px 20px;
+    display: none;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 20%;
+    border-left: 1px solid rgba(0, 0, 0, 0.354);
+    border-right: 1px solid rgba(0, 0, 0, 0.354);
+  }
+
+#botonesTransparentes
+  {
+    background-color: transparent;
+    border-radius: 15px;
+  }
+
+
+/********************BREAKOUTS********************/
+
+@media (max-width: 575.98px)
+{ 
+    /********************GENERAL PARA CELULARES********************/
+    body 
+    {
+        background-image: url("https://raw.githubusercontent.com/Lucasgomez14/arg-prom-4.0-frontend/main/Arg.Prog%204.0/teoria/TrabajoEntrega/imgpngs/pruebaFondo.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;    
+    }
+
+    /********************IDS DE DECORACION PARA CELULARES********************/
+    .navegacion
+    {
+        font-size: 0px;
+    }
+    #tituloCV
+    {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #fotoCV
+    {
+        margin-top: 25px;
+        margin-left: -5px;
+        border: 1px solid; color: black;
+        border-radius: 10px;
+    }
+
+    #titulo
+    {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: -15px;
+    }
+    #subtitulo
+    {
+        
+        font-size: 18px;
+        color: rgb(65, 77, 30);
+        margin-bottom: 15px;
+        margin-left: -15px;
+    
+    }
+
+    #iconitos
+    {
+        height: 15px;
+        width: 15px;
+    }
+
+    #margenesh5
+    {
+        margin-left: 15px;
+        
+    }
+
+    #debajoh5
+    {
+        margin-left: 15px;
+        opacity: 0.5;
+    }
+
+    /********************CLASES DE DECORACION PARA CELULARES********************/
+
+    .margen
+    {
+        margin-top:-10px;
+        margin-bottom:-10px;
+    }
+    .iconitosPrincipales
+    {
+        margin-right: 4px;
+        margin-left: 1px;
+        margin-top: -6px
+    }
+
+    .iconitosSubtitulos
+    {
+        height: 20px;
+        width: 20px;
+        margin-top: 12px;
+        margin-right: 5px;
+        margin-left: 32px;
+    }
+
+    .iconitosSkills
+    {
+        margin-top: 15px;
+        margin-right: 1px;
+        margin-left: 15px;
+    }
+
+    .subtitulos
+    {
+        color: black;
+        display: inline-block;
+        font-size: 30px;
+        vertical-align: top;
+        margin: 2px;
+        text-align: left;
+    }
+    .subtitulos:hover
+    {
+        color: rgb(56, 55, 55);
+        border-bottom: 1px solid black;
+    }
+
+
+    .textoIconitos{
+        color: black;
+        opacity: 0.50;
+        font-size: 15px;
+        margin: 0px;
+    }
+
+    .parrafos
+    {
+        font-size: 15px;
+        text-align: justify;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .listaspan
+    {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 17px;
+    }
+    .h5Educacion
+    {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .col-8
+    {
+        width: 280px;
+    }
+
+    .row
+    {
+        flex-wrap: nowrap;
+    }
+
+    .col-3
+    {
+        padding: 0px;
+    }
+
+    h5
+    {
+        font-size: 15px;
+    }
+
+    .educacion
+    {
+        font-size: 14px;
+    }
+    /********************BOTONES PARA CELULARES********************/
+
+    .acordeon{
+        color: black;
+        cursor: pointer;
+        padding: 20px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+    }
+
+    .acordeon:hover
+    {
+        transform: scale(1.01);
+    }
+    .panel {
+        padding: 5px 10px 5px 0px;
+        display: none;
+        overflow: hidden;
+        border-radius: 15px;
+        margin-left: 0px;
+        margin-right: 6px;
+        border-left: 1px solid rgba(0, 0, 0, 0.354);
+        border-right: 1px solid rgba(0, 0, 0, 0.354);
+    }
+
+    #botonesTransparentes
+    {
+        background-color: transparent;
+        border-radius: 15px;
+        margin-left: -25px;
+        padding-right: 5px;
+        padding-left: 5px;
+        text-align: center;
+    }
+}
+@media (min-width: 575.98px) and (max-width: 991.98px)
+
+{
+     /********************GENERAL PARA TABLETS********************/
+     body 
+     {
+         background-image: url("https://raw.githubusercontent.com/Lucasgomez14/arg-prom-4.0-frontend/main/Arg.Prog%204.0/teoria/TrabajoEntrega/imgpngs/pruebaFondo.jpg");
+         background-repeat: no-repeat;
+         background-size:cover;
+         background-attachment: fixed;    
+     }
+
+     .navegacion
+     {
+         font-size: 0px;
+     }
+     
+     /********************IDS DE DECORACION PARA TABLETS*******************/
+     #tituloCV
+     {
+         text-align: center;
+         font-size: 40px;
+     }
+ 
+     #fotoCV
+     {
+         margin-top: 25px;
+         margin-left: -5px;
+         border: 1px solid; color: black;
+         border-radius: 10px;
+     }
+ 
+     #titulo
+     {
+         font-size: 45px;
+         margin-top: 20px;
+         margin-left: -15px;
+     }
+     #subtitulo
+     {
+         
+         font-size: 35px;
+         color: rgb(65, 77, 30);
+         margin-bottom: 30px;
+         margin-left: -15px;
+     
+     }
+ 
+     #iconitos
+     {
+         height: 22px;
+         width: 22px;
+     }
+ 
+     #margenesh5
+     {
+         margin-left: 15px;
+         
+     }
+ 
+     #debajoh5
+     {
+         margin-left: 15px;
+         opacity: 0.5;
+     }
+ 
+     /********************CLASES DE DECORACION PARA TABLETS********************/
+ 
+     .margen
+     {
+         margin-top:0px;
+         margin-bottom:0px;
+     }
+     .iconitosPrincipales
+     {
+         margin-right: 4px;
+         margin-left: 1px;
+         margin-top: 3px
+     }
+ 
+     .iconitosSubtitulos
+     {
+         height: 30px;
+         width: 30px;
+         margin-top: 12px;
+         margin-right: 5px;
+         margin-left: 32px;
+     }
+ 
+     .iconitosSkills
+     {
+         margin-top: 11px;
+         margin-right: 1px;
+         margin-left: 15px;
+     }
+ 
+     .subtitulos
+     {
+         color: black;
+         display: inline-block;
+         font-size: 40px;
+         vertical-align: top;
+         margin: 2px;
+         text-align: left;
+     }
+     .subtitulos:hover
+     {
+         color: rgb(56, 55, 55);
+         border-bottom: 1px solid black;
+     }
+ 
+ 
+     .textoIconitos{
+         color: black;
+         opacity: 0.50;
+         font-size: 20px;
+         margin: 0px;
+     }
+ 
+     .parrafos
+     {
+         font-size: 18px;
+         text-align: justify;
+         margin-top: 5px;
+         margin-left: 10px;
+     }
+     .listaspan
+     {
+         font-size: 18px;
+         margin-top: 10px;
+         margin-left: 17px;
+     }
+     .h5Educacion
+     {
+         margin-top: 11px;
+         margin-left: 1px;
+     }
+ 
+     .col-8
+     {
+         width: 500px;
+     }
+ 
+     .col-3
+     {
+         padding: 0px;
+     }
+ 
+     h5
+     {
+         font-size: 20px;
+     }
+ 
+     .educacion
+     {
+         font-size: 18px;
+     }
+     /********************BOTONES PARA TABLETS********************/
+ 
+     .acordeon{
+         color: black;
+         cursor: pointer;
+         padding: 20px;
+         width: 100%;
+         border: none;
+         text-align: left;
+         outline: none;
+     }
+ 
+     .acordeon:hover
+     {
+         transform: scale(1.01);
+     }
+     .panel {
+         padding: 5px 10px 5px 0px;
+         display: none;
+         overflow: hidden;
+         border-radius: 15px;
+         margin-left: 0px;
+         margin-right: -67px;
+         border-left: 1px solid rgba(0, 0, 0, 0.354);
+         border-right: 1px solid rgba(0, 0, 0, 0.354);
+     }
+ 
+     #botonesTransparentes
+     {
+         background-color: transparent;
+         border-radius: 15px;
+         margin-left: 10px;
+         padding-right: 5px;
+         padding-left: 5px;
+         text-align: center;
+     }
+}
